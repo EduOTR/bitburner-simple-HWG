@@ -1,7 +1,7 @@
 /**
  * @param {import("../").NS} ns
  */
-export async function main(ns) {
+export function main(ns) {
     ns.brutessh(ns.args[0])
     ns.ftpcrack(ns.args[0])
     ns.httpworm(ns.args[0])

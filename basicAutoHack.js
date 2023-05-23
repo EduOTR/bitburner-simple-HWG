@@ -1,7 +1,7 @@
 /**
  * @param {import("../").NS} ns 
  */
-export async function main(ns) {
+export function main(ns) {
     
     var target = {
         name: ns.args[0],
@@ -14,5 +14,5 @@ export async function main(ns) {
         totalRam: ns.getServerMaxRam(ns.getHostname()),
     };
     
-    ns.spawn("exploitTargetServer.js", 1, target, host);
+    ns.spawn("exploitTargetServer.js", 1, [target, host]);
 }
