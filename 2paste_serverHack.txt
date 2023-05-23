@@ -1,0 +1,3 @@
+run BruteSSH.exe;run HTTPWorm.exe;run FTPCrack.exe; run SQLInject.exe; run relaySMTP.exe; run NUKE.exe;wget https://github.com/EduOTR/bitburner-simple-HWG/raw/main/basicAutoHack.js basicAutoHack.js;wget https://github.com/EduOTR/bitburner-simple-HWG/raw/main/hack.js hack.js;wget https://github.com/EduOTR/bitburner-simple-HWG/raw/main/grow.js grow.js;wget https://github.com/EduOTR/bitburner-simple-HWG/raw/main/weaken.js weaken.js
+
+run basicAutoHack.js silver-helix
