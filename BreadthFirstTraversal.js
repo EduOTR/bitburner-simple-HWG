@@ -33,7 +33,7 @@ function traverse(ns, currentServer, visited) {
             }
             
             if(ns.getServerMaxRam(server) > 4) {
-                ns.exec("basicAutoHack.js", server, 1, "silver-helix");
+                ns.exec("basicAutoHack.js", server, 1, "phantasy");
             }
 
             traverse(ns, server, visited);
