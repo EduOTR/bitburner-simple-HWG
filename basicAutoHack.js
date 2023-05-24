@@ -14,5 +14,5 @@ export function main(ns) {
         totalRam: ns.getServerMaxRam(ns.getHostname()),
     };
     
-    ns.spawn("exploitTargetServer.js", 1, [target, host]);
+    ns.spawn("exploitTargetServer.js", 1, [target.name, target.moneyThreshold, target.securityThreshold, host.name, host.totalRam]);
 }
